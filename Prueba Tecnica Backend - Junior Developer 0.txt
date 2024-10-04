@@ -1,12 +1,13 @@
 Prueba Técnica Backend - Junior Developer
 
-*Contexto: Eres parte del equipo de backend de UBER. Tu tarea es desarrollar una funcionalidad que permita gestionar la asignación de conductores a pasajeros en base a la cercanía y disponibilidad de los conductores.
+Contexto: Eres parte del equipo de backend de UBER. Tu tarea es desarrollar una funcionalidad que permita gestionar la asignación de conductores a pasajeros en base a la cercanía y disponibilidad de los conductores.
 
-*Requerimientos:
 
+Requerimientos:
 Deberás implementar una función en JavaScript que se encargue de asignar el conductor más cercano disponible a un pasajero que solicita un viaje.
 
-*Descripción de la tarea:
+
+Descripción de la tarea:
 Crea una función llamada assignDriver que tome los siguientes parámetros:
 
 - passengerLocation: Un objeto que contiene las coordenadas { lat: number, lon: number } del pasajero.
@@ -15,8 +16,16 @@ Crea una función llamada assignDriver que tome los siguientes parámetros:
 	-id: El ID único del conductor.
 	-location: Un objeto con las coordenadas { lat: number, lon: number } del conductor.
 	-available: Un booleano que indica si el conductor está disponible o no.
+const passengerLocation = { lat: 37.7749, lon: -122.4194 };
+const drivers = [
+  { id: 1, location: { lat: 37.7849, lon: -122.4094 }, available: true },
+  { id: 2, location: { lat: 37.7649, lon: -122.4294 }, available: false },
+  { id: 3, location: { lat: 37.7749, lon: -122.4094 }, available: true }
+];
 
-*Funcionalidad:
+
+
+Funcionalidad:
 
 La función debe devolver el ID del conductor más cercano disponible al pasajero.
 
@@ -38,6 +47,7 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
 
   return R * c; 
 } 
+
 
 
 Consideraciones:
