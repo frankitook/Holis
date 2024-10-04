@@ -1,0 +1,38 @@
+Prueba Técnica Backend - Junior Developer
+
+Contexto: Eres parte del equipo de backend de Google encargado del sistema de búsqueda de Google. Tu tarea es desarrollar una funcionalidad que permita realizar una búsqueda de palabras clave dentro de un conjunto de páginas web.
+
+
+Requerimientos: 
+Deberás implementar una función en JavaScript que se encargue de encontrar las páginas que contienen las palabras clave solicitadas por un usuario.
+
+
+Descripción de la tarea:
+Crea una función llamada searchPages que tome los siguientes parámetros:
+
+	-query: Un arreglo de strings que contiene las palabras clave que el usuario está buscando.
+
+	-pages: Un arreglo de objetos donde cada objeto representa una página web, con las siguientes propiedades:
+		-url: El URL de la página web.
+		-content: Un string que contiene todo el texto de la página.
+
+
+const query = ['Google', 'search'];
+const pages = [
+  { url: 'https://www.google.com', content: 'Google search is a web search engine.' },
+  { url: 'https://www.wikipedia.org', content: 'Wikipedia is an online encyclopedia.' },
+  { url: 'https://searchengine.com', content: 'Search engines like Google are powerful tools.' }
+];
+
+
+
+Consideraciones:
+
+-La función debe ser capaz de manejar páginas con diferentes longitudes de contenido.
+
+-Las palabras clave deben aparecer completas (es decir, 'search' no coincide con 'searching') y en cualquier orden dentro del contenido.
+
+-Optimiza tu código para que sea eficiente en la búsqueda, pero prioriza la claridad y corrección.
+
+Bonus (opcional):
+Si tienes tiempo, agrega soporte para una búsqueda "fuzzy", donde pequeñas diferencias ortográficas (por ejemplo, "googl" en lugar de "google") aún permitan que una página sea considerada relevante.
