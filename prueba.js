@@ -3,8 +3,8 @@ const drivers = [
     { id: 1, location: { lat: 37.7849, lon: -122.4094 }, available: true },
     { id: 2, location: { lat: 37.7649, lon: -122.4294 }, available: false },
     { id: 3, location: { lat: 37.7749, lon: -122.4094 }, available: true },
-    { id: 4, location: { lat: 37.7755, lon: -122.4155 }, available: true }, // Conductor más cercano
-    { id: 5, location: { lat: 37.7849, lon: -122.4094 }, available: true },  // Otro conductor
+    { id: 4, location: { lat: 37.7755, lon: -122.4155 }, available: true }, 
+    { id: 5, location: { lat: 37.7849, lon: -122.4094 }, available: true },  
   ];
 
 const closestDriver = assignDriver(passengerLocation, drivers.filter(driver => driver.available));
