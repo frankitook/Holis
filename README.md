@@ -6,7 +6,7 @@ This repository contains various technical challenges from companies like Facebo
 
 Each technical test has its respective solution implemented in JavaScript. You can review the code and test the solutions yourself to better prepare for technical interviews.
 
-## Cómo Ejecutar Soluciones
+## How to Run Solutions?
 
 1.  Clone the repository using: `git clone https://github.com/frankitook/Pruebas-Tecnicas-Empresas-Backend.git`
 2.  Enter the folder: `cd folder`.
