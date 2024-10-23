@@ -1,44 +1,38 @@
-Prueba Técnica Backend - Junior Developer
+Technical Test Backend - Junior Developer
 
-Descripción:
-Imagina que estás trabajando en el equipo de Facebook que se encarga de la función de búsqueda de amigos. Tu tarea es desarrollar una función en JavaScript que encuentre amigos en común entre dos usuarios.
+Description:
+Imagine you are working on the Facebook team responsible for the friend search feature. Your task is to develop a function in JavaScript that finds common friends between two users.
 
+Objective:
+Implement a function that takes two lists of friends and returns a list of common friends.
 
-Objetivo:
-Implementar una función que reciba dos listas de amigos y devuelva una lista de amigos en común.
-
-
-Requisitos:
-1- Entradas: Dos arreglos de cadenas que representan los amigos de dos usuarios.
+Requirements:
+1- Inputs: Two arrays of strings representing the friends of two users.
 
 const user1Friends = ['Alice', 'Bob', 'Charlie', 'David'];
 const user2Friends = ['Charlie', 'Eve', 'Frank', 'Bob'];
 
-2- Salida:
-Un arreglo con los nombres de amigos en común, sin duplicados, ordenados alfabéticamente.
+2- Output: An array with the names of common friends, without duplicates, sorted alphabetically.
 
 
 
-Consideraciones:
+Considerations:
 
--No se permite el uso de funciones de orden superior como filter, map o reduce (aunque se puede usar forEach si es necesario).
+- The use of higher-order functions such as filter, map, or reduce is not allowed (although forEach can be used if necessary).
 
--La solución debe ser eficiente, teniendo en cuenta que las listas de amigos pueden ser grandes (hasta 10,000 amigos por usuario).
+- The solution should be efficient, considering that the friend lists can be large (up to 10,000 friends per user).
 
-Implementación:
-Desarrolla la función findCommonFriends en un archivo llamado friendSearch.js
+Implementation:
+Develop the function findCommonFriends in a file named friendSearch.js.
 
+Submission:
+Send the friendSearch.js file with your implementation.
+Include a README.md file that explains your solution, any assumptions you made, and how you tested your function.
 
+Evaluation:
+Candidates will be evaluated based on the following criteria:
 
-Entrega:
--Envía el archivo friendSearch.js con tu implementación.
--Incluye un archivo README.md que explique tu solución, cualquier suposición que hayas hecho y cómo probaste tu función.
-
-
-Evaluación:
-Los candidatos serán evaluados en base a los siguientes criterios:
-
--Corrección y eficiencia de la solución.
--Limpieza y organización del código.
--Calidad de la documentación y claridad de las explicaciones.
--Habilidad para manejar diferentes casos de prueba.
+- Correctness and efficiency of the solution.
+- Cleanliness and organization of the code.
+- Quality of the documentation and clarity of the explanations.
+- Ability to handle different test cases.
