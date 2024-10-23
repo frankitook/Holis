@@ -1,5 +1,7 @@
 Technical Test Backend - Junior Developer
-Context: You are part of the backend team at Google responsible for the Google search system. Your task is to develop a functionality that allows searching for keywords within a set of web pages.
+
+Context 
+You are part of the backend team at Google responsible for the Google search system. Your task is to develop a functionality that allows searching for keywords within a set of web pages.
 
 Requirements:
 You must implement a function in JavaScript that finds the pages containing the keywords requested by a user.
