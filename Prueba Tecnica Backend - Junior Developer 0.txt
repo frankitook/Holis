@@ -1,14 +1,14 @@
-# Backend Technical Test - Junior Developer
+ Backend Technical Test - Junior Developer
 
-## Context
+ Context
 
 You are part of UBER's backend team. Your task is to develop a functionality that manages the assignment of drivers to passengers based on driver proximity and availability.
 
-## Requirements
+ Requirements
 
 Implement a function in JavaScript that assigns the nearest available driver to a passenger requesting a ride.
 
-### Task Description
+ Task Description
 
 Create a function called `assignDriver` that takes the following parameters:
 
@@ -31,12 +31,12 @@ const drivers = [
 
 
 
-#Functionality
+Functionality
 The function should return the ID of the nearest available driver to the passenger.
 
 If no drivers are available, the function should return null.
 
-#Distance Calculation
+Distance Calculation
 To calculate proximity, use the following calculateDistance function:
 
 function calculateDistance(lat1, lon1, lat2, lon2) {
@@ -56,7 +56,7 @@ function calculateDistance(lat1, lon1, lat2, lon2) {
 
 
 
-#Considerations
+Considerations
 -Coordinates are in decimal format and represent latitude and longitude in degrees.
 
 -Optimize your code for clarity and efficiency, but simplicity and correctness are the most important aspects of this exercise.
