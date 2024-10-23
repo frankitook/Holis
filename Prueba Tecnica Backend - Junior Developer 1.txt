@@ -1,20 +1,17 @@
-Prueba Técnica Backend - Junior Developer
+Technical Test Backend - Junior Developer
+Context: You are part of the backend team at Google responsible for the Google search system. Your task is to develop a functionality that allows searching for keywords within a set of web pages.
 
-Contexto: Eres parte del equipo de backend de Google encargado del sistema de búsqueda de Google. Tu tarea es desarrollar una funcionalidad que permita realizar una búsqueda de palabras clave dentro de un conjunto de páginas web.
+Requirements:
+You must implement a function in JavaScript that finds the pages containing the keywords requested by a user.
 
+Task Description:
+Create a function called searchPages that takes the following parameters:
 
-Requerimientos: 
-Deberás implementar una función en JavaScript que se encargue de encontrar las páginas que contienen las palabras clave solicitadas por un usuario.
+- query: An array of strings containing the keywords that the user is searching for.
 
-
-Descripción de la tarea:
-Crea una función llamada searchPages que tome los siguientes parámetros:
-
-	-query: Un arreglo de strings que contiene las palabras clave que el usuario está buscando.
-
-	-pages: Un arreglo de objetos donde cada objeto representa una página web, con las siguientes propiedades:
-		-url: El URL de la página web.
-		-content: Un string que contiene todo el texto de la página.
+- pages: An array of objects where each object represents a web page, with the following properties:
+	 - url: The URL of the web page.
+	 - content: A string containing all the text of the page.
 
 
 const query = ['Google', 'search'];
@@ -26,13 +23,13 @@ const pages = [
 
 
 
-Consideraciones:
+Considerations:
 
--La función debe ser capaz de manejar páginas con diferentes longitudes de contenido.
+The function must be able to handle pages with different lengths of content.
 
--Las palabras clave deben aparecer completas (es decir, 'search' no coincide con 'searching') y en cualquier orden dentro del contenido.
+The keywords must appear in full (i.e., 'search' does not match 'searching') and in any order within the content.
 
--Optimiza tu código para que sea eficiente en la búsqueda, pero prioriza la claridad y corrección.
+Optimize your code for efficient searching, but prioritize clarity and correctness.
 
-Bonus (opcional):
-Si tienes tiempo, agrega soporte para una búsqueda "fuzzy", donde pequeñas diferencias ortográficas (por ejemplo, "googl" en lugar de "google") aún permitan que una página sea considerada relevante.
+Bonus (optional):
+If you have time, add support for a "fuzzy" search, where small spelling differences (for example, "googl" instead of "google") still allow a page to be considered relevant.
