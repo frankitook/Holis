@@ -1,25 +1,25 @@
-# PRUEBAS TECNICAS PARA DESARROLLADORES BACKEND
+# TECHNICAL TESTS FOR BACKEND DEVELOPERS
 
-Este repositorio contiene varios desafíos técnicos de empresas como Facebook, eBay y Uber. Cada desafío está diseñado para diferentes puestos y niveles de experiencia en desarrollo backend, utilizando JavaScript como lenguaje principal (aunque puedes utilizar cualquier otro lenguaje si lo prefieres).
+This repository contains various technical challenges from companies like Facebook, eBay, and Uber. Each challenge is designed for different positions and levels of experience in backend development, using JavaScript as the primary language (although you can use any other language if you prefer).
 
-# SOLUCIONES
+# SOLUTIONS
 
-Cada prueba técnica tiene su respectiva resolución implementada en JavaScript. Puedes revisar el código y probar las soluciones por ti mismo para prepararte mejor para entrevistas técnicas.
+Each technical test has its respective solution implemented in JavaScript. You can review the code and test the solutions yourself to better prepare for technical interviews.
 
 ## Cómo Ejecutar Soluciones
 
-1.  Clonar repositorio usando: `git clone https://github.com/frankitook/Pruebas-Tecnicas-Empresas-Backend.git`
-2.  Ingresar a la carpeta: `cd carpeta`.
-3.  Para correr el archivo: Primero ejecutas `npm install` y luego `node prueba1.js`
+1.  Clone the repository using: `git clone https://github.com/frankitook/Pruebas-Tecnicas-Empresas-Backend.git`
+2.  Enter the folder: `cd folder`.
+3.  To run the file: First run `npm install -y` and then `node prueba1.js`
 
-# CONTRIBUCIONES
+# CONTRIBUTIONS
 
-La idea principal de este repositorio es ayudar a que cualquier persona pueda practicar antes de tener una prueba técnica. ¡Queremos que este proyecto crezca y sea una herramienta útil para toda la comunidad de desarrolladores!
+The main idea of this repository is to help anyone practice before facing a technical test. We want this project to grow and become a useful tool for the entire developer community!
 
-## ¿Cómo contribuir?
+## How to Contribute?
 
-1- Proponer Nuevas Pruebas Técnicas: Si conoces desafíos técnicos de otras empresas o tienes ideas originales, ¡puedes agregarlas! Asegúrate de incluir una descripción clara del problema y su solución (si es posible).
+1- Propose New Technical Tests: If you know of technical challenges from other companies or have original ideas, feel free to add them! Make sure to include a clear description of the problem and its solution (if possible).
 
-2- Agregar Soluciones en Otros Lenguajes: Aunque las soluciones actuales están en JavaScript, sería genial contar con soluciones en otros lenguajes como Python, Java, Ruby, etc. Siéntete libre de contribuir en tu lenguaje favorito.
+2- Add Solutions in Other Languages: Although the current solutions are in JavaScript, it would be great to have solutions in other languages like Python, Java, Ruby, etc. Feel free to contribute in your favorite language.
 
-3- Mejorar Soluciones Existentes: ¿Tienes una idea para mejorar alguna de las soluciones actuales? Aceptamos optimizaciones, mejores prácticas, o nuevas funcionalidades.
+3- Improve Existing Solutions: Do you have an idea to improve any of the current solutions? We welcome optimizations, best practices, or new features.
